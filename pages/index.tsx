@@ -15,19 +15,13 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-off-white">
         <div className="mt-6 flex max-w-4xl flex-col items-center justify-around sm:w-full">
           <LinkButton.Purple link={"/about"} text={"About"} />
-          <LinkButton.Pink link={"https://nextjs.org/learn"} text={"Resume"} />
+          <LinkButton.Pink link={"/resume"} text={"Resume"} />
           <LinkButton.Purple
             link={"https://nextjs.org/learn"}
             text={"Contact"}
           />
-          <LinkButton.Purple
-            link={"https://nextjs.org/learn"}
-            text={"Writing"}
-          />
-          <LinkButton.Purple
-            link={"https://nextjs.org/learn"}
-            text={"Aesthetics"}
-          />
+          <LinkButton.Purple link={"/resume"} text={"Writing"} />
+          <LinkButton.Purple link={"aesthetics"} text={"Aesthetics"} />
         </div>
       </main>
 
