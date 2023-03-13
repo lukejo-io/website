@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <LinkButton.Pink link={"/resume"} text={"Resume"} />
         <LinkButton.Purple link={"/contact"} text={"Contact"} />
         <LinkButton.Purple link={"/writing"} text={"Writing"} />
-        <LinkButton.Purple link={"/aesthetics"} text={"Aesthetics"} />
+        <LinkButton.Purple link={"/aesthetics"} text={"Photos"} />
       </div>
     </Layout>
   );
