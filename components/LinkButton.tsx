@@ -13,7 +13,7 @@ function LinkButton({ link, text, className }: ButtonProps) {
       <Link
         href={link}
         className={clsx(
-          "text-center rounded-sm border p-6 text-left hover:shadow-xl hover:opacity-75 active:shadow-inner-xl",
+          "text-center rounded-sm p-6 text-left hover:shadow-xl hover:opacity-75 active:shadow-inner-xl",
           className
         )}
       >
@@ -25,12 +25,18 @@ function LinkButton({ link, text, className }: ButtonProps) {
 
 function LinkButtonPink({ link, text }: ButtonProps) {
   return (
-    <LinkButton link={link} className={"bg-pink !text-white"} text={text} />
+    <LinkButton link={link} className={"bg-pink text-black"} text={text} />
   );
 }
 
 function LinkButtonPurple({ link, text }: ButtonProps) {
-  return <LinkButton link={link} className={"bg-purple"} text={text} />;
+  return (
+    <LinkButton
+      link={link}
+      className={"bg-purple text-off-white"}
+      text={text}
+    />
+  );
 }
 
 LinkButton.Pink = LinkButtonPink;
