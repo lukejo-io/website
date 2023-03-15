@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import LinkButton from "../components/LinkButton";
+import Image from "next/image";
 import Layout from "../components/Layout";
 
 const Home: NextPage = () => {
@@ -11,18 +11,32 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-6xl font-bold">Photos</h1>
-
-      <p className="mt-3 text-2xl">
-        About{" "}
-        <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-          pages/index.tsx
-        </code>
-      </p>
-
-      <div className="mt-6 flex max-w-4xl flex-col items-center justify-around sm:w-full">
-        <LinkButton link={"https://nextjs.org/learn"} text={"About"} />
+      <Image
+        src="/dmp.jpeg"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
+      <div className={"border border-4 border-black"}>
+        <Image
+          src="/dmp.jpeg"
+          alt="Picture of the author"
+          width={500}
+          height={500}
+        />
       </div>
+      <Image
+        src="/dmp.jpeg"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
+      <Image
+        src="/dmp.jpeg"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
     </Layout>
   );
 };

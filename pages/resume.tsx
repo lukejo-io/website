@@ -99,7 +99,7 @@ const Resume: NextPage = () => {
                 companyLink={"https://www.dmp.com/"}
                 name={"DMP"}
                 description={
-                  "DMP designs and manufactures state of the art intrusion & access control products in Springfield, MO"
+                  "DMP designs and manufactures state of the art intrusion & access control products in Springfield, MO."
                 }
               />
             }

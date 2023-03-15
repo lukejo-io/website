@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           link={"https://github.com/lukejo-io"}
           text={"GitHub"}
         />
-        <LinkButton.Purple link={"/aesthetics"} text={"Photos"} />
+        {/*<LinkButton.Purple link={"/aesthetics"} text={"Photos"} />*/}
       </div>
     </Layout>
   );

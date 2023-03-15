@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@radix-ui/react-aspect-ratio": "^1.0.2",
     "@radix-ui/react-avatar": "^1.0.2",
     "@radix-ui/react-popover": "^1.0.5",
     "clsx": "^1.2.1",
