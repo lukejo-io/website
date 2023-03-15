@@ -2,8 +2,18 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import LinkButton from "../components/LinkButton";
 import Layout from "../components/Layout";
+import { useEffect } from "react";
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    const head = document.querySelector("head");
+    const script = document.createElement("script");
+    script.setAttribute(
+      "src",
+      "https://assets.calendly.com/assets/external/widget.js"
+    );
+    head?.appendChild(script);
+  });
   return (
     <Layout>
       <Head>
@@ -11,18 +21,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-6xl font-bold">Contact</h1>
-
-      <p className="mt-3 text-2xl">
-        About{" "}
-        <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-          pages/index.tsx
-        </code>
-      </p>
-
-      <div className="mt-6 flex max-w-4xl flex-col items-center justify-around sm:w-full">
-        <LinkButton link={"https://nextjs.org/learn"} text={"About"} />
-      </div>
+      <div
+        className="calendly-inline-widget"
+        data-url="https://calendly.com/lej212/30min?hide_event_type_details=1&hide_gdpr_banner=1"
+        style={{ minWidth: "320px", height: "630px" }}
+      ></div>
     </Layout>
   );
 };
