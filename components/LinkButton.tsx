@@ -25,17 +25,17 @@ function LinkButton({ link, text, className }: ButtonProps) {
 
 function LinkButtonPink({ link, text }: ButtonProps) {
   return (
-    <LinkButton link={link} className={"bg-pink text-black"} text={text} />
+    <LinkButton
+      link={link}
+      className={"bg-off-white border border-black text-black"}
+      text={text}
+    />
   );
 }
 
 function LinkButtonPurple({ link, text }: ButtonProps) {
   return (
-    <LinkButton
-      link={link}
-      className={"bg-purple text-off-white"}
-      text={text}
-    />
+    <LinkButton link={link} className={"bg-black text-off-white"} text={text} />
   );
 }
 

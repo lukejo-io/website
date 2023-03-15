@@ -12,10 +12,10 @@ const Home: NextPage = () => {
       </Head>
 
       <div className={"flex flex-col gap-3 w-full h-full md:w-96 p-3"}>
-        <LinkButton.Purple link={"/about"} text={"About"} />
+        <LinkButton.Pink link={"/about"} text={"About"} />
         <LinkButton.Pink link={"/resume"} text={"Resume"} />
-        <LinkButton.Purple link={"/contact"} text={"Contact"} />
-        <LinkButton.Purple
+        <LinkButton.Pink link={"/contact"} text={"Contact"} />
+        <LinkButton.Pink
           link={"https://github.com/lukejo-io"}
           text={"GitHub"}
         />
