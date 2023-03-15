@@ -31,7 +31,7 @@ function CompanyInfo({
             <Link href={companyLink}>
               <Avatar.Root>
                 <Avatar.Image
-                  className={"rounded-full w-14 h-14 border border-black"}
+                  className={" w-14 h-14 border border-black"}
                   src={imageSrc}
                   alt="Colm Tuite"
                 />
