@@ -13,7 +13,7 @@ function LinkButton({ link, text, className }: ButtonProps) {
       <Link
         href={link}
         className={clsx(
-          "text-center mt-6 w-96 rounded-sm border p-6 text-left hover:text-blue-600 focus:text-blue-600 hover:shadow-xl hover:opacity-75 active:shadow-inner-xl",
+          "text-center rounded-sm border p-6 text-left hover:text-blue-600 focus:text-blue-600 hover:shadow-xl hover:opacity-75 active:shadow-inner-xl",
           className
         )}
       >

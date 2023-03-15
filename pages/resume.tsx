@@ -24,7 +24,7 @@ type ListItemProps = {
 };
 
 function ListItem({ description }: ListItemProps) {
-  return <li className={"text-lg"}>{description}</li>;
+  return <li className={"text-lg ml-4"}>{description}</li>;
 }
 
 function DescriptionList({ children }: PropsWithChildren) {

@@ -5,17 +5,17 @@ import Link from "next/link";
 
 function Layout({ children }: PropsWithChildren) {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex flex-col w-full">
       <Link href={"/"}>
-        <div className="flex h-24 w-screen items-center justify-center border-b sticky top-0">
+        <div className="flex h-24 w-full items-center justify-center border-b mb-3">
           <h1 className="text-5xl lg:text-6xl font-bold">Luke Johnson</h1>
         </div>
       </Link>
-      <main className="relative flex w-full p-2 flex-col items-center justify-center lg:px-20 text-center bg-off-white">
+      <div className=" flex w-full flex-col items-center justify-center   bg-off-white">
         {children}
-      </main>
+      </div>
 
-      <footer className="flex h-24 w-screen items-center justify-center border-t">
+      <footer className="flex h-24 w-full items-center justify-center border-t mt-3">
         Ⓒ2023 Luke Johnson
       </footer>
     </div>
