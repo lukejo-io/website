@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Layout from "../components/Layout";
-import { PropsWithChildren } from "react";
+import { PropsWithChildren, ReactNode } from "react";
+import CompanyInfo from "../components/CompanyInfo";
 
 type HeaderProps = {
   title: string;
@@ -12,11 +13,17 @@ function Header({ title }: HeaderProps) {
 }
 
 type SubheaderProps = {
+  companyName: ReactNode;
   subheader: string;
 };
 
-function Subheader({ subheader }: SubheaderProps) {
-  return <div className={"italic text-md"}>{subheader}</div>;
+function Subheader({ companyName, subheader }: SubheaderProps) {
+  return (
+    <span>
+      {companyName}
+      <div className={"italic text-md"}>{subheader}</div>
+    </span>
+  );
 }
 
 type ListItemProps = {
@@ -41,7 +48,17 @@ const Resume: NextPage = () => {
       <div className={"flex flex-col text-left gap-6 p-3"}>
         <div>
           <Header title={"Software Engineer"} />
-          <Subheader subheader={"ConGenius Sep 2022 - March 2023"} />
+          <Subheader
+            companyName={
+              <CompanyInfo
+                name={"ConGenius"}
+                description={
+                  "ConGenius is software that helps home builders, remodelers, and construction pros master their sales process, create accurate estimates, and build proposals."
+                }
+              />
+            }
+            subheader={"ConGenius Sep 2022 - March 2023"}
+          />
           <DescriptionList>
             <ListItem
               description={
