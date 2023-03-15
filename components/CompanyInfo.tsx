@@ -28,12 +28,16 @@ function CompanyInfo({
           className={"bg-off-white  border border-black rounded-md p-2"}
         >
           <div className={"flex flex-row max-w-md gap-2"}>
-            <Link href={"https://www.congenius.com/"}>
+            <Link href={companyLink}>
               <Avatar.Root>
                 <Avatar.Image
                   className={"rounded-full w-14 h-14 border border-black"}
                   src={imageSrc}
                   alt="Colm Tuite"
+                />
+                <Avatar.Fallback
+                  className="rounded-full w-14 h-14 border"
+                  delayMs={7000}
                 />
               </Avatar.Root>
             </Link>

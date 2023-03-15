@@ -55,7 +55,7 @@ const Resume: NextPage = () => {
                 companyLink={"https://www.congenius.com/"}
                 name={"ConGenius"}
                 description={
-                  "ConGenius is software that helps home builders, remodelers, and construction pros master their sales process, create accurate estimates, and build proposals."
+                  "ConGenius builds software that helps home builders, remodelers, and construction pros master their sales process, create accurate estimates, and build proposals."
                 }
               />
             }
@@ -96,7 +96,7 @@ const Resume: NextPage = () => {
             companyName={
               <CompanyInfo
                 imageSrc={"/dmp.jpeg"}
-                companyLink={"https://www.congenius.com/"}
+                companyLink={"https://www.dmp.com/"}
                 name={"DMP"}
                 description={
                   "DMP designs and manufactures state of the art intrusion & access control products in Springfield, MO"
@@ -172,7 +172,7 @@ const Resume: NextPage = () => {
             companyName={
               <CompanyInfo
                 imageSrc={"/oreilly.png"}
-                companyLink={"https://www.congenius.com/"}
+                companyLink={"https://www.oreillyauto.com/"}
                 name={"O'Reilly"}
                 description={
                   "O’Reilly Automotive, Inc. is an American auto parts retailer that provides automotive aftermarket parts, tools, supplies, equipment, and accessories to professional service providers and do-it-yourself customers."
