@@ -15,7 +15,10 @@ const Home: NextPage = () => {
         <LinkButton.Purple link={"/about"} text={"About"} />
         <LinkButton.Pink link={"/resume"} text={"Resume"} />
         <LinkButton.Purple link={"/contact"} text={"Contact"} />
-        <LinkButton.Purple link={"/writing"} text={"Writing"} />
+        <LinkButton.Purple
+          link={"https://github.com/lukejo-io"}
+          text={"GitHub"}
+        />
         <LinkButton.Purple link={"/aesthetics"} text={"Photos"} />
       </div>
     </Layout>

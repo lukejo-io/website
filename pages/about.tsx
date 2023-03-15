@@ -32,7 +32,8 @@ const Home: NextPage = () => {
           After a six-month stint at the startup I decided to go into
           contracting. It's my mission to work with companies to build robust,
           maintainable web applications so they can quickly provide value for
-          their customers. Please reach out through my{" "}
+          their customers. If you think we would make a good fit, please reach
+          out through my{" "}
           <Link href={"/contact"} className={"text-purple"}>
             contact
           </Link>{" "}
