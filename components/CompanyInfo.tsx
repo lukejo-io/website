@@ -18,7 +18,7 @@ function CompanyInfo({
   return (
     <Popover.Root>
       <Popover.Trigger>
-        <div className={"italic underline hover:cursor text-purple"}>
+        <div className={"italic hover:underline hover:cursor text-purple"}>
           {name}
         </div>
       </Popover.Trigger>

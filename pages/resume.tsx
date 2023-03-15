@@ -142,7 +142,7 @@ const Resume: NextPage = () => {
                 companyLink={"https://www.missouristate.edu/Web/default.htm"}
                 name={"MSU"}
                 description={
-                  "Missouri State's Office of Web Strategy and Development build's and manages websites, create content and assist with digital outreach."
+                  "Missouri State's Office of Web Strategy and Development builds and manages websites, creates content and assists with digital outreach."
                 }
               />
             }
