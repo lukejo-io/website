@@ -11,7 +11,7 @@ function Layout({ children }: PropsWithChildren) {
           <h1 className="text-5xl lg:text-6xl font-bold">Luke Johnson</h1>
         </div>
       </Link>
-      <main className="relative flex w-full flex-1 flex-col items-center justify-center lg:px-20 text-center bg-off-white">
+      <main className="relative flex w-full p-2 flex-col items-center justify-center lg:px-20 text-center bg-off-white">
         {children}
       </main>
 
