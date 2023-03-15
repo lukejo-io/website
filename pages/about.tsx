@@ -11,17 +11,28 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-6xl font-bold">About</h1>
-
-      <p className="mt-3 text-2xl">
-        About{" "}
-        <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-          pages/index.tsx
-        </code>
-      </p>
-
-      <div className="mt-6 flex max-w-4xl flex-col items-center justify-around sm:w-full">
-        <LinkButton link={"https://nextjs.org/learn"} text={"About"} />
+      <div className={"flex flex-col text-left gap-6 p-3 max-w-2xl"}>
+        <p>
+          Although my dad and two older brothers either taught or wrote software
+          for a living, I wanted to be a teacher and cross country coach. I
+          started college majoring in physical education but quickly realized
+          that was not what I wanted to do for a living. The summer following my
+          freshman year I decided to enroll in my first programming course.
+        </p>
+        <p>
+          I learned programming in that course writing C# and decided to change
+          my major to computer science. Following two internships, a part-time
+          gig at MSU, and graduating college, I began working at DMP. It was
+          there that I began to daily write and consume APIs and build out
+          client-side applications. Then I was presented with an opportunity to
+          work at a local startup.
+        </p>
+        <p>
+          After a six-month stint at the startup I decided to go into
+          contracting. It's my mission to work with companies to build robust,
+          maintainable web applications so they can quickly provide value for
+          their customers. Please reach out through my contact page
+        </p>
       </div>
     </Layout>
   );
