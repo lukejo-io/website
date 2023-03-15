@@ -20,7 +20,8 @@ type SubheaderProps = {
 function Subheader({ companyName, subheader }: SubheaderProps) {
   return (
     <span className={"flex flex-row"}>
-      {companyName} <div className={"italic text-md"}>{subheader}</div>
+      {companyName}
+      <div className={"italic text-md"}>&nbsp;{subheader}</div>
     </span>
   );
 }
