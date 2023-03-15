@@ -51,6 +51,8 @@ const Resume: NextPage = () => {
           <Subheader
             companyName={
               <CompanyInfo
+                imageSrc={"/congenius.jpeg"}
+                companyLink={"https://www.congenius.com/"}
                 name={"ConGenius"}
                 description={
                   "ConGenius is software that helps home builders, remodelers, and construction pros master their sales process, create accurate estimates, and build proposals."
@@ -90,7 +92,19 @@ const Resume: NextPage = () => {
         </div>
         <div>
           <Header title={"Software Engineer "} />
-          <Subheader subheader={"DMP Jan 2019 - Sep 2022"} />
+          <Subheader
+            companyName={
+              <CompanyInfo
+                imageSrc={"/dmp.jpeg"}
+                companyLink={"https://www.congenius.com/"}
+                name={"DMP"}
+                description={
+                  "DMP designs and manufactures state of the art intrusion & access control products in Springfield, MO"
+                }
+              />
+            }
+            subheader={"Jan 2019 - Sep 2022"}
+          />
           <DescriptionList>
             <ListItem
               description={
@@ -121,7 +135,19 @@ const Resume: NextPage = () => {
         </div>
         <div>
           <Header title={"Software Developer"} />
-          <Subheader subheader={"MSU March 2018 - Dec 2019"} />
+          <Subheader
+            companyName={
+              <CompanyInfo
+                imageSrc={"/msu.jpeg"}
+                companyLink={"https://www.missouristate.edu/Web/default.htm"}
+                name={"MSU"}
+                description={
+                  "Missouri State's Office of Web Strategy and Development build's and manages websites, create content and assist with digital outreach."
+                }
+              />
+            }
+            subheader={"March 2018 - Dec 2019"}
+          />
           <DescriptionList>
             <ListItem
               description={
@@ -142,7 +168,19 @@ const Resume: NextPage = () => {
         </div>
         <div>
           <Header title={"Software Development Intern"} />
-          <Subheader subheader={"O'Reilly - Sep 2017 - Jan 2018"} />
+          <Subheader
+            companyName={
+              <CompanyInfo
+                imageSrc={"/oreilly.png"}
+                companyLink={"https://www.congenius.com/"}
+                name={"O'Reilly"}
+                description={
+                  "O’Reilly Automotive, Inc. is an American auto parts retailer that provides automotive aftermarket parts, tools, supplies, equipment, and accessories to professional service providers and do-it-yourself customers."
+                }
+              />
+            }
+            subheader={"Sep 2017 - Jan 2018"}
+          />
           <DescriptionList>
             <ListItem description={"Full-stack, waterfall environment"} />
             <ListItem

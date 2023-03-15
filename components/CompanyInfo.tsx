@@ -5,9 +5,16 @@ import Link from "next/link";
 type CompanyInfoProps = {
   name: string;
   description: string;
+  imageSrc: string;
+  companyLink: string;
 };
 
-function CompanyInfo({ name, description }: CompanyInfoProps) {
+function CompanyInfo({
+  name,
+  description,
+  companyLink,
+  imageSrc,
+}: CompanyInfoProps) {
   return (
     <Popover.Root>
       <Popover.Trigger>
@@ -25,7 +32,7 @@ function CompanyInfo({ name, description }: CompanyInfoProps) {
               <Avatar.Root>
                 <Avatar.Image
                   className={"rounded-full w-14 h-14 border border-black"}
-                  src="/congenius.jpeg"
+                  src={imageSrc}
                   alt="Colm Tuite"
                 />
               </Avatar.Root>
