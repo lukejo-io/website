@@ -25,7 +25,7 @@ function CompanyInfo({
       <Popover.Portal>
         <Popover.Content
           align={"start"}
-          className={"bg-off-white  border border-black rounded-md p-2 ring-0"}
+          className={"bg-off-white  border border-black p-2 ring-0"}
         >
           <div className={"flex flex-row max-w-md gap-2"}>
             <Link href={companyLink}>
