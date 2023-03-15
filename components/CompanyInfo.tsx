@@ -9,7 +9,11 @@ type CompanyInfoProps = {
 function CompanyInfo({ name, description }: CompanyInfoProps) {
   return (
     <Popover.Root>
-      <Popover.Trigger>{name}</Popover.Trigger>
+      <Popover.Trigger>
+        <div className={"italic underline hover:cursor text-purple"}>
+          {name}
+        </div>
+      </Popover.Trigger>
       <Popover.Portal>
         <Popover.Content
           className={"bg-off-white  border border-black rounded-md p-2"}

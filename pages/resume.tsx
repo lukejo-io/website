@@ -19,9 +19,8 @@ type SubheaderProps = {
 
 function Subheader({ companyName, subheader }: SubheaderProps) {
   return (
-    <span>
-      {companyName}
-      <div className={"italic text-md"}>{subheader}</div>
+    <span className={"flex flex-row"}>
+      {companyName} <div className={"italic text-md"}>{subheader}</div>
     </span>
   );
 }
@@ -45,7 +44,7 @@ const Resume: NextPage = () => {
         <title>Resume</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={"flex flex-col text-left gap-6 p-3"}>
+      <div className={"flex flex-col text-left gap-6 p-3 max-w-2xl"}>
         <div>
           <Header title={"Software Engineer"} />
           <Subheader
@@ -57,7 +56,7 @@ const Resume: NextPage = () => {
                 }
               />
             }
-            subheader={"ConGenius Sep 2022 - March 2023"}
+            subheader={"Sep 2022 - March 2023"}
           />
           <DescriptionList>
             <ListItem
