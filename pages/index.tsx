@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={"flex flex-col gap-2 w-64 md:w-96 "}>
+      <div className={"flex flex-col gap-3 w-full h-full md:w-96 p-3"}>
         <LinkButton.Purple link={"/about"} text={"About"} />
         <LinkButton.Pink link={"/resume"} text={"Resume"} />
         <LinkButton.Purple link={"/contact"} text={"Contact"} />
