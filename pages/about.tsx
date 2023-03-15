@@ -21,12 +21,12 @@ const Home: NextPage = () => {
           freshman year I decided to enroll in my first programming course.
         </p>
         <p>
-          I learned programming in that course writing C# and decided to change
-          my major to computer science. Following two internships, a part-time
-          gig at MSU, and graduating college, I began working at DMP. It was
-          there that I began to daily write and consume APIs and build out
-          client-side applications. Then I was presented with an opportunity to
-          work at a local startup.
+          I learned programming that summer writing C# and decided to change my
+          major to computer science. Following two internships, a part-time gig
+          at MSU, and graduating college, I began working at DMP. It was there
+          that I began to daily write and consume APIs and build out client-side
+          applications. Then I was presented with an opportunity to work at a
+          local startup.
         </p>
         <p>
           After a six-month stint at the startup I decided to go into
