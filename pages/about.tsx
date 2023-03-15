@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import LinkButton from "../components/LinkButton";
 import Layout from "../components/Layout";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -31,7 +32,11 @@ const Home: NextPage = () => {
           After a six-month stint at the startup I decided to go into
           contracting. It's my mission to work with companies to build robust,
           maintainable web applications so they can quickly provide value for
-          their customers. Please reach out through my contact page
+          their customers. Please reach out through my{" "}
+          <Link href={"/contact"} className={"text-purple"}>
+            contact
+          </Link>{" "}
+          page
         </p>
       </div>
     </Layout>
