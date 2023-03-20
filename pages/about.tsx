@@ -14,9 +14,7 @@ const Home: NextPage = () => {
 
       <div className={"flex flex-col text-left gap-6 p-3 max-w-2xl"}>
         <p>
-          Although my dad and two older brothers either taught or wrote software
-          for a living, I wanted to be a teacher and cross country coach. I
-          started college majoring in physical education but quickly realized
+          I started college majoring in physical education but quickly realized
           that was not what I wanted to do for a living. The summer following my
           freshman year I decided to enroll in my first programming course.
         </p>
