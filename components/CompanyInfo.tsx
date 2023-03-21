@@ -26,7 +26,7 @@ function CompanyInfo({
         <Popover.Content
           align={"start"}
           className={
-            "bg-off-white  border border-black p-2 ring-0 drop-shadow-2xl shadow-2xl"
+            "ring-0 bg-off-white  border border-black p-2 ring-0 drop-shadow-2xl shadow-2xl"
           }
         >
           <div className={"flex flex-row max-w-md gap-2"}>
