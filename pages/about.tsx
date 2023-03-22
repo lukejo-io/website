@@ -13,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className={"flex flex-col text-left gap-6 p-3 max-w-2xl"}>
+        <p>
           I learned programming that summer writing C# and decided to change my
           major to computer science. Following two internships, a part-time gig
           at MSU, and graduating college, I began working at DMP. It was there
